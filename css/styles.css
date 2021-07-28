@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&family=Roboto:wght@400;900&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.bebas {
+    font-family: "Bebas Neue", cursive;
+    font-family: "Oswald", sans-serif;
+}
+.orange {
+    color: #fa804c;
+}
+.navy-blue {
+    color: #363958;
+}
+p {
+    color: #3e3e3e;
+    line-height: 26px;
+}

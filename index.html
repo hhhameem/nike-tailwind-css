@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nike-Tailwind</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header class="bg-red-50 pt-8">
+            <nav class="flex flex-row justify-between items-center mx-8  md:mx-20">
+                <div class="nav-logo">
+                    <img class="h-8" src="icons/Logo.png" alt="Navbar Logo">
+                </div>
+                <div class="nav-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                    <div class="nav-menu-items hidden sm:flex">
+                        <a class="inline-block p-2 transition duration-700 ease-in-out hover:bg-red-200 rounded-lg"
+                            href="">Home</a>
+                        <a class="inline-block p-2 transition duration-700 ease-in-out hover:bg-red-200 rounded-lg"
+                            href="">Product</a>
+                        <a class="inline-block p-2 transition duration-700 ease-in-out hover:bg-red-200 rounded-lg"
+                            href="">About US</a>
+                        <a class="inline-block p-2 transition duration-700 ease-in-out hover:bg-red-200 rounded-lg"
+                            href="">Contact US</a>
+                    </div>
+                </div>
+            </nav>
+            <section class="flex flex-col justify-center mt-14 mx-8 md:flex-row space-x-reverse space-x-12 md:mx-20">
+                <div class="header-text mb-6 order-1 md:order-2">
+                    <div class="only-text mb-6">
+                        <h1 class="bebas text-7xl black navy-blue mb-4 uppercase">
+                            <span class="orange">Nike React</span><br> Infinity Run 2
+                        </h1>
+                        <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                    </div>
+                    <div class="only-button">
+                        <button type="button" class="flex px-8 py-5 bg-blue-700 text-white rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="header-image mb-24 order-2 md:order-1">
+                    <img class="mix-blend-multiply" src="images/Group 33092.png" alt="Header Image">
+                </div>
+            </section>
+        </header>
+        <main>
+            <!-- Casual shoes section -->
+            <section class="mb-24">
+                <h1 class="bebas navy-blue uppercase text-center text-4xl font-bold leading-9 my-14">
+                    Casual Shoes
+                </h1>
+                <div class="shoes grid grid-cols-1 gap-4 m-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-gray-200 rounded-3xl">
+                            <img src="images/Daco_1703273 1.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Nike Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-gray-200 rounded-3xl">
+                            <img src="images/pngegg 1.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Nike Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-gray-200 rounded-3xl">
+                            <img src="images/image 5.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Nike Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Formal shoes section -->
+            <section class="mb-24">
+                <h1 class="bebas navy-blue uppercase text-center text-4xl font-bold leading-9 my-14">
+                    Casual Shoes
+                </h1>
+                <div class="shoes grid grid-cols-1 gap-4 m-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-white rounded-3xl">
+                            <img src="images/Mask Group.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Prestige High-Cut Leather </h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-white rounded-3xl">
+                            <img src="images/Rectangle 38.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Slip-On Formal Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="shoe px-4 py-4 mb-6 shadow-lg rounded-3xl">
+                        <div class="shoe-image bg-white rounded-3xl">
+                            <img src="images/Rectangle 39.png" alt="Shoe 1">
+                        </div>
+                        <div class="shoe-details mt-4">
+                            <h1 class="font-bold text-3xl navy-blue mb-4">Slip-Off Formal Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="shoe-price flex flex-row justify-between items-center mt-4">
+                            <h1 class="orange bebas text-5xl font-black">$240</h1>
+                            <button type="button" class="flex px-4 py-4 bg-blue-700 text-white rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service section -->
+            <section class="mb-28 grid grid-cols-1 gap-4 items-center m-4 md:grid-cols-2">
+                <div class="mb-16 mx-4 md:row-span-3"><img src="icons/XMLID 1.png" alt="Service section image"></div>
+                <div class="flex flex-col px-4 py-4 mb-6 shadow-lg rounded-3xl md:flex-row">
+                    <div class="service-image w-32 h-32 mb-6">
+                        <img src="icons/image 12.png" alt="Home image">
+                    </div>
+                    <div class="service-text text-center md:text-left ml-8">
+                        <h1 class="font-bold text-3xl navy-blue mb-4">Find the Perfect Fit</h1>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center px-4 py-4 mb-6 shadow-lg rounded-3xl md:flex-row">
+                    <div class="service-image w-32 h-32 mb-6">
+                        <img src="icons/image 13.png" alt="Home image">
+                    </div>
+                    <div class="service-text text-center md:text-left ml-8">
+                        <h1 class="font-bold text-3xl navy-blue mb-4">Free Exchanges</h1>
+                        <p>One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center px-4 py-4 mb-6 shadow-lg rounded-3xl md:flex-row">
+                    <div class="service-image w-32 h-32 mb-6">
+                        <img src="icons/image 14.png" alt="Home image">
+                    </div>
+                    <div class="service-text text-center md:text-left ml-8">
+                        <h1 class="font-bold text-3xl navy-blue mb-4">Contact Our Seller</h1>
+                        <p>They are here to help you. That's quite
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
